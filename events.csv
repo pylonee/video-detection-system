@@ -1,0 +1,15 @@
+time,event,state
+0.0,step_up,occupied
+210.87,empty,empty
+212.4,step_up,occupied
+224.93,empty,empty
+311.67,step_up,occupied
+316.13,empty,empty
+395.73,step_up,occupied
+412.13,empty,empty
+465.67,step_up,occupied
+469.67,empty,empty
+575.67,step_up,occupied
+593.93,empty,empty
+595.93,step_up,occupied
+605.13,empty,empty

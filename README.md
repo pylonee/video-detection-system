@@ -75,17 +75,17 @@ detectionSys
 -- src  
 
 ---- core  
--------- detectors.py        интерфейс детекторов  
--------- roi_selector.py     ROI  
--------- table_states.py     Классы состояний  
+-------- detectors.py  &nbsp; интерфейс детекторов  
+-------- roi_selector.py  &nbsp; ROI  
+-------- table_states.py  &nbsp; Классы состояний  
 
 ---- services  
--------- video_handler.py    обработчик видео  
--------- event_logger.py     логика событий  
--------- report.py           отчеты  
--------- video_src.py        загрузка видео  
--------- output.py           запись видео и csv файла  
--------- celery_tasks.py     celery  
+-------- video_handler.py  &nbsp; обработчик видео  
+-------- event_logger.py  &nbsp; логика событий  
+-------- report.py  &nbsp; отчеты  
+-------- video_src.py  &nbsp; загрузка видео  
+-------- output.py  &nbsp; запись видео и csv файла  
+-------- celery_tasks.py  &nbsp; celery  
 
 ---- cli  
 -------- main.py  

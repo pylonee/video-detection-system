@@ -73,22 +73,22 @@ Result saved in output.mp4 and events.csv
 
 detectionSys  
 -src  
--- core  
---- detectors.py        интерфейс детекторов  
---- roi_selector.py     ROI  
---- table_states.py     Классы состояний  
--- services  
---- video_handler.py    обработчик видео  
---- event_logger.py     логика событий  
---- report.py           отчеты  
---- video_src.py        загрузка видео  
---- output.py           запись видео и csv файла  
---- celery_tasks        celery  
--- cli  
---- main.py  
-- tests  
--- тесты  
-- requirements.txt  
-- docker  
--- Dockerfile  
--- docker-compose.yml  
+--core  
+---detectors.py        интерфейс детекторов  
+---roi_selector.py     ROI  
+---table_states.py     Классы состояний  
+--services  
+---video_handler.py    обработчик видео  
+---event_logger.py     логика событий  
+---report.py           отчеты  
+---video_src.py        загрузка видео  
+---output.py           запись видео и csv файла  
+---celery_tasks        celery  
+--cli  
+---main.py  
+-tests  
+--тесты  
+-requirements.txt  
+-docker  
+--Dockerfile  
+--docker-compose.yml  

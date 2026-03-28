@@ -85,7 +85,7 @@ detectionSys
 -------- report.py           отчеты  
 -------- video_src.py        загрузка видео  
 -------- output.py           запись видео и csv файла  
--------- celery_tasks        celery  
+-------- celery_tasks.py     celery  
 
 ---- cli  
 -------- main.py  

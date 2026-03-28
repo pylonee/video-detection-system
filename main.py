@@ -132,7 +132,7 @@ def main ():
     print(f"Total events: {len(df)}")
     print(f"Avg time between departure and approach: {avg_time: .2f} sec")
     df.to_csv('events.csv', index=False)
-    print("\n Result saved in output.mp4 and events.csv")
+    print("\nResult saved in output.mp4 and events.csv")
 
 if __name__ == "__main__":
     main()

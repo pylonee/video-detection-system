@@ -36,12 +36,13 @@ python main.py --video input.mp4
 ## Пример проблемного кадра
 
 ![Пример проблемного кадра](error_frame.png)
+человек за лампой не был распознан. Из-за этого началось мерцание. Была добавлена задержка в несколько кадров
 
 ## Результат работы
 
 ### Полученное видео
 
-![output.mp4](https://drive.google.com/drive/folders/1Rc7tfZWO2sIfnzPx3AQahuv_XcoYUp7t?usp=sharing)
+[output.mp4](https://drive.google.com/drive/folders/1Rc7tfZWO2sIfnzPx3AQahuv_XcoYUp7t?usp=sharing)
 
 ### Аналитика
 
